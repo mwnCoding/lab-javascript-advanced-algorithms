@@ -11,6 +11,7 @@ class Stack {
 
   isEmpty() {
     // ... your code goes here
+    return this.stackControl.length === 0;
   }
 
   push(item) {
