@@ -27,6 +27,12 @@ class Stack {
 
   pop() {
     // ... your code goes here
+    if (!this.isEmpty()) {
+      return this.stackControl.pop();
+    }
+    else {
+      throw new Error('STACK_UNDERFLOW');
+    }
   }
 
   display() {
