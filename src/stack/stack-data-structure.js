@@ -37,6 +37,7 @@ class Stack {
 
   display() {
     // ... your code goes here
+    return this.stackControl;
   }  
 }
 
