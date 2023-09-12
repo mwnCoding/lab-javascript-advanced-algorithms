@@ -6,6 +6,7 @@ class Stack {
 
   canPush() {
     // ... your code goes here
+    return this.stackControl.length !== this.MAX_SIZE;
   }
 
   isEmpty() {
