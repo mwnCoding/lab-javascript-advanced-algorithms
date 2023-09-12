@@ -11,6 +11,7 @@ class Queue {
 
   isEmpty() {
     // ... your code goes here
+    return this.queueControl.length === 0;
   }
 
   enqueue(item) {
